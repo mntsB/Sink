@@ -40,9 +40,9 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    '/': {
-      prerender: true,
-    },
+    // '/': {
+    //   prerender: true,
+    // },
     '/dashboard/**': {
       prerender: true,
       ssr: false,
